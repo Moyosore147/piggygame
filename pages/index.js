@@ -64,8 +64,8 @@ document.querySelector('.btn-roll').addEventListener('click', () => {
         // 2. display result
         document.querySelector('.dice1').style.display = 'block';
         document.querySelector('.dice2').style.display = 'block';
-        document.querySelector('.dice1').src = 'dice-' + dice1 + '.png';
-        document.querySelector('.dice2').src = 'dice-' + dice2 + '.png';
+        document.querySelector('.dice1').src = '/images/dice-' + dice1 + '.png';
+        document.querySelector('.dice2').src = '/images/dice-' + dice2 + '.png';
     
         // 3. update the round score IF the rolled numbers was NOT a 1
         if (dice1 !== 1 && dice2 !==1) {
