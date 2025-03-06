@@ -4,6 +4,10 @@
 
 let scores, roundScore, activePlayer, gamePlaying, prevRoll, playerName1, playerName2;
 
+document.querySelector('.btn-rules').addEventListener('click', function(){
+    alert('Game Rules will be here');
+})
+
 init();
 
 document.querySelector('.btn-refresh').addEventListener('click', () => {
@@ -131,6 +135,8 @@ document.querySelector('.btn-new').addEventListener('click', init);
 
 
 function init() {
+
+
     scores = [0, 0];
     roundScore = 0;
     activePlayer = 0;
